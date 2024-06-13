@@ -1,0 +1,67 @@
+.bt-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-container {
+  width: 40%;
+  height: 85%;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.result-image {
+  width: 30%;
+  height: 40%;
+}
+
+.congrats-head {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.about-time {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.re-btn {
+  width: 130px;
+  height: 40px;
+  top: 791px;
+  left: 655px;
+  padding: 8px, 32px, 8px, 32px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .bt-container {
+    text-align: center;
+  }
+  .result-container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .result-image {
+    width: 40%;
+    height: 25%;
+  }
+}
